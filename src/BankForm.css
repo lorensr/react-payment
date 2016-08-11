@@ -1,0 +1,10 @@
+/* BankForm overrides: */
+
+.segmented-control {
+  color: #424242; /* grey800 */
+  margin-top: 30px;
+}
+
+.segmented-control > label {
+  line-height: 36px; /* match material buttons */
+}

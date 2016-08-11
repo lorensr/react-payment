@@ -1,0 +1,64 @@
+{
+  "name": "react-payment",
+  "version": "0.1.0",
+  "description": "💳💰  React components for credit card and bank account forms, using material-ui",
+  "homepage": "https://github.com/lorensr/react-payment",
+  "scripts": {
+    "storybook": "start-storybook -p 9001",
+    "build-storybook": "build-storybook",
+    "deploy-storybook": "storybook-to-ghpages",
+    "prepublish": "sh scripts/prepublish.sh"
+  },
+  "bugs": {
+    "url": "https://github.com/lorensr/react-payment/issues"
+  },
+  "license": "MIT",
+  "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "react",
+    "reactjs",
+    "react-component",
+    "credit-card",
+    "credit card",
+    "bank-account",
+    "payments",
+    "forms",
+    "validation",
+    "material-ui",
+    "material design",
+    "stripe"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorensr/react-payment.git"
+  },
+  "devDependencies": {
+    "@kadira/react-storybook-addon-info": "^3.1.2",
+    "@kadira/react-storybook-decorator-centered": "^1.0.0",
+    "@kadira/storybook": "^2.0.0",
+    "@kadira/storybook-deployer": "^1.0.0",
+    "babel": "^6.5.2",
+    "babel-cli": "^6.11.4",
+    "babel-eslint": "^6.1.2",
+    "babel-preset-react": "^6.11.1",
+    "babel-preset-stage-0": "^6.5.0",
+    "react-scripts": "0.2.1",
+    "react-tap-event-plugin": "^1.0.0"
+  },
+  "dependencies": {
+    "formsy-material-ui": "^0.5.0",
+    "formsy-react": "^0.18.1",
+    "lodash": "^4.14.1",
+    "material-ui": "^0.15.3",
+    "payment": "^2.0.3",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1",
+    "segmented-control": "^0.1.0"
+  },
+  "eslintConfig": {
+    "extends": "./node_modules/react-scripts/config/eslint.js"
+  }
+}

@@ -1,0 +1,43 @@
+.payment-methods {
+  min-width: 350px;
+}
+
+.payment-methods__section {
+}
+
+.payment-methods__add {
+  margin: 30px auto;
+  width: 200px;
+}
+
+.payment-method-list {
+  position: relative;
+}
+
+.payment-method {
+  margin-top: 25px;
+}
+
+.payment-method__text {
+  line-height: 36px; /* to match __remove button */
+}
+
+.payment-method__text--card {
+  text-transform: uppercase;
+}
+
+.payment-method__number {
+  margin: 0 .6em;
+  padding: 0 5px;
+  border: 1px solid #e5e5e5;
+  font-size: 1.2em;
+  font-family: monospace;
+  border-radius: 3px;
+  background-color: #f0f0f0;
+}
+
+.payment-method__remove {
+  position: absolute;
+  right: 0;
+  text-transform: uppercase;
+}
