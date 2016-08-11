@@ -134,6 +134,7 @@ class CardForm extends Component {
               return cvc && (cvc.length == 3 || cvc.length == 4)
             }
           }}
+          validationError={this.props.getZip ? 'Invalid CVC' : null}
           className="cc-cvc"
           // autoCompleteType="csc"
           style={style}

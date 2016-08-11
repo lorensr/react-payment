@@ -29,16 +29,21 @@ You can configure/modify some things with props and CSS, and if you need to do a
 
 ### CardForm
 
+[![Blank CardForm](https://www.dropbox.com/s/yvjmcyhgihho6iy/Screenshot%202016-08-11%2014.53.26.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=CardForm&selectedStory=full&full=0&down=1&left=1&panelRight=0)
+
+[![Invalid CardForm](https://www.dropbox.com/s/lmhnc19d39tlug4/Screenshot%202016-08-11%2014.53.59.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=CardForm&selectedStory=invalid&full=0&down=1&left=1&panelRight=0)
+
 ### BankForm
+
+[![Valid BankForm](https://www.dropbox.com/s/wj939litstd1wqw/Screenshot%202016-08-11%2014.51.48.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=BankForm&selectedStory=valid&full=0&down=1&left=1&panelRight=0)
+
+[![Invalid BankForm](https://www.dropbox.com/s/96rrp3cw8wudffb/Screenshot%202016-08-11%2014.52.37.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=BankForm&selectedStory=invalid&full=0&down=1&left=1&panelRight=0)
 
 ### PaymentMethods
 
-## Usage
+[![PaymentMethods](https://www.dropbox.com/s/ha0ryw4nppy8le0/Screenshot%202016-08-11%2014.48.28.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=PaymentMethods&selectedStory=full&full=0&down=1&left=1&panelRight=0)
 
-- [`CardForm`](#cardform)
-- [`BankForm`](#bankform)
-- [`PaymentMethods`](#paymentmethods)
-- [`Full example`](#full-example)
+## Usage
 
 ```sh
 npm i --save react-payment
@@ -53,6 +58,11 @@ import { CardForm } from 'react-payment';
 // OR
 import CardForm from 'react-payment/dist/CardForm';
 ```
+
+- [`CardForm`](#cardform)
+- [`BankForm`](#bankform)
+- [`PaymentMethods`](#paymentmethods)
+- [`Full example`](#full-example)
 
 ### CardForm
 
@@ -134,7 +144,7 @@ onSubmit(account) {
 
 <BankForm
   onSubmit={this.onSubmit}
->
+/>
 ```
 
 ### PaymentMethods
@@ -274,7 +284,7 @@ export default class PaymentExample extends Component {
             :
             <BankForm
               onSubmit={this.onSubmitBank}
-            >
+            />
           }
         </Dialog>
       </MuiThemeProvider>

@@ -43,3 +43,21 @@ storiesOf('CardForm', module)
     </StoryWrapper>
   )
 })
+.addWithInfo('invalid', () => {
+  return (
+    <StoryWrapper>
+      <CardForm
+        onSubmit={action('onSubmit')}
+        getName={true}
+        getZip={true}
+        defaultValues={{
+          name: 'Loren',
+          number: '456345',
+          expiration: '01/01',
+          cvc: '12',
+          zip: '94117'
+        }}
+      />
+    </StoryWrapper>
+  )
+})
