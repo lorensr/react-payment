@@ -184,12 +184,28 @@ import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
 import server from './server';
 
+let loadedStripe = false;
+
 export default class PaymentExample extends Component {
 
   state = {
     dialogOpen: false
     cardDialog: true
   };
+
+  componentWillMount() {
+    if (loadedStripe) {
+      return;
+    }
+
+    const script = document.createElement("script");
+    script.src = "https://js.stripe.com/v2/";
+    script.type = "text/javascript";
+    script.async = true;
+    document.body.appendChild(script);
+
+    loadedStripe = true;
+  }
 
   openDialog = (type) => {
     this.setState({
@@ -305,4 +321,5 @@ npm run storybook
 
 ### Credits
 
-Contributions by [these fine folks](https://github.com/lorensr/react-payment/graphs/contributors)
+- Contributions by [these fine folks](https://github.com/lorensr/react-payment/graphs/contributors)
+- Segmented control component from [`segmented-control`](https://github.com/lorensr/segmented-control)
