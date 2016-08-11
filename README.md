@@ -29,19 +29,19 @@ You can configure/modify some things with props and CSS, and if you need to do a
 
 ### CardForm
 
-[![Blank CardForm](https://www.dropbox.com/s/yvjmcyhgihho6iy/Screenshot%202016-08-11%2014.53.26.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=CardForm&selectedStory=full&full=0&down=1&left=1&panelRight=0)
+[![Blank CardForm](https://photos-6.dropbox.com/t/2/AAAYnQ5CoAk-3MrcqLpuaJoHCJG7Kb30ELf9xsZ5qei_-A/12/27134267/png/32x32/3/1470956400/0/2/Screenshot%202016-08-11%2014.53.26.png/EP6MtxQY-J2XASACKAI/0oEoGeKDJC7R0F48tDa9rFR_EgotH--SifWjZwazmTI?size_mode=3&size=2048x1536&dl=0)](http://lorensr.me/react-payment/?selectedKind=CardForm&selectedStory=full&full=0&down=1&left=1&panelRight=0)
 
-[![Invalid CardForm](https://www.dropbox.com/s/lmhnc19d39tlug4/Screenshot%202016-08-11%2014.53.59.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=CardForm&selectedStory=invalid&full=0&down=1&left=1&panelRight=0)
+[![Invalid CardForm](https://photos-3.dropbox.com/t/2/AAAGUw6LnpEUZzHjT16uVe5mBZzvI3EY65b2kx6bKe2-sw/12/27134267/png/32x32/3/1470956400/0/2/Screenshot%202016-08-11%2014.53.59.png/EP6MtxQY-J2XASACKAI/YFeyy84B76HIUTN__0aDzBwTEo1OBWY8-NouLPOg3ig?size_mode=3&size=2048x1536&dl=0)](http://lorensr.me/react-payment/?selectedKind=CardForm&selectedStory=invalid&full=0&down=1&left=1&panelRight=0)
 
 ### BankForm
 
-[![Valid BankForm](https://www.dropbox.com/s/wj939litstd1wqw/Screenshot%202016-08-11%2014.51.48.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=BankForm&selectedStory=valid&full=0&down=1&left=1&panelRight=0)
+[![Valid BankForm](https://photos-1.dropbox.com/t/2/AABDjJHL3LfN89uHW36jTohx-3lCP9v2PS7if5RmZjDoeg/12/27134267/png/32x32/3/1470956400/0/2/Screenshot%202016-08-11%2014.51.48.png/EP6MtxQY-J2XASACKAI/n9HV4bS_SpB1LrIDOCQK04tzUNiE49g-J9KBnkDD3XI?size_mode=3&size=2048x1536&dl=0)](http://lorensr.me/react-payment/?selectedKind=BankForm&selectedStory=valid&full=0&down=1&left=1&panelRight=0)
 
-[![Invalid BankForm](https://www.dropbox.com/s/96rrp3cw8wudffb/Screenshot%202016-08-11%2014.52.37.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=BankForm&selectedStory=invalid&full=0&down=1&left=1&panelRight=0)
+[![Invalid BankForm](https://photos-6.dropbox.com/t/2/AABoeyV1tB4GWJ66sGAPkouVXkug3NWqDvRjHn8oGta68Q/12/27134267/png/32x32/3/1470956400/0/2/Screenshot%202016-08-11%2014.52.37.png/EP6MtxQY-J2XASACKAI/sdqD9eUW4WVJULhppsW9YCFxEtWoqkbYbLqLoWCVl-s?size_mode=3&size=2048x1536&dl=0)](http://lorensr.me/react-payment/?selectedKind=BankForm&selectedStory=invalid&full=0&down=1&left=1&panelRight=0)
 
 ### PaymentMethods
 
-[![PaymentMethods](https://www.dropbox.com/s/ha0ryw4nppy8le0/Screenshot%202016-08-11%2014.48.28.png?dl=0)](http://lorensr.me/react-payment/?selectedKind=PaymentMethods&selectedStory=full&full=0&down=1&left=1&panelRight=0)
+[![PaymentMethods](https://photos-6.dropbox.com/t/2/AACS4LZThne8tI6AED2iptT1IJnnzOHjRq7AemzJ1whrUw/12/27134267/png/32x32/3/1470956400/0/2/Screenshot%202016-08-11%2014.48.28.png/EP6MtxQY-J2XASACKAI/WlBt14tvCtQG4dk23t0rWCH96td6GFabei-SnvVbQao?size_mode=3&size=2048x1536&dl=0)](http://lorensr.me/react-payment/?selectedKind=PaymentMethods&selectedStory=full&full=0&down=1&left=1&panelRight=0)
 
 ## Usage
 
