@@ -1,7 +1,7 @@
 import React, { Component, PropTypes } from 'react'
 import MuiThemeProvider from 'material-ui/styles/MuiThemeProvider';
 
-let loadedStripe = false
+let appendedStripe = false
 
 class StoryWrapper extends Component {
   constructor(props, context) {
@@ -9,7 +9,7 @@ class StoryWrapper extends Component {
   }
 
   componentWillMount() {
-    if (loadedStripe) {
+    if (appendedStripe) {
       return
     }
 
@@ -17,9 +17,12 @@ class StoryWrapper extends Component {
     script.src = "https://js.stripe.com/v2/";
     script.type = "text/javascript";
     script.async = true;
+    script.onload = () => {
+      Stripe.setPublishableKey('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
+    };
     document.body.appendChild(script);
 
-    loadedStripe = true;
+    appendedStripe = true;
   }
 
   render() {

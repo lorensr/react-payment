@@ -1,4 +1,6 @@
-Material-UI React components for payments:
+[![npm version](https://badge.fury.io/js/react-payment.svg)](https://badge.fury.io/js/react-payment)
+
+React components for payments:
 
 - `<CardForm>`: credit card entry (with validation)
 - `<BankForm>`: bank account entry (with validation)
@@ -9,7 +11,7 @@ You can configure/modify some things with props and CSS, and if you need to do a
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
-- [UI](#ui)
+- [Demo](#demo)
   - [CardForm](#cardform)
   - [BankForm](#bankform)
   - [PaymentMethods](#paymentmethods)
@@ -23,7 +25,7 @@ You can configure/modify some things with props and CSS, and if you need to do a
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
-## UI
+## Demo
 
 **Component demo:** [lorensr.me/react-payment](http://lorensr.me/react-payment)
 
@@ -202,6 +204,10 @@ export default class PaymentExample extends Component {
     script.src = "https://js.stripe.com/v2/";
     script.type = "text/javascript";
     script.async = true;
+    script.onload = () => {
+      Stripe.setPublishableKey('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
+      console.log('set key');
+    };
     document.body.appendChild(script);
 
     loadedStripe = true;

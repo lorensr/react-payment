@@ -46,7 +46,8 @@
     "babel-preset-react": "^6.11.1",
     "babel-preset-stage-0": "^6.5.0",
     "react-scripts": "0.2.1",
-    "react-tap-event-plugin": "^1.0.0"
+    "react-tap-event-plugin": "^1.0.0",
+    "react-lumberjack": "^2.0.0"
   },
   "dependencies": {
     "formsy-material-ui": "^0.5.0",
@@ -60,5 +61,9 @@
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
+  },
+  "author": {
+    "name": "Loren Sands-Ramshaw",
+    "url": "http://lorensr.me"
   }
 }
