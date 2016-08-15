@@ -61,12 +61,12 @@ import { CardForm } from 'react-payment';
 import CardForm from 'react-payment/dist/CardForm';
 ```
 
-- [`CardForm`](#cardform)
-- [`BankForm`](#bankform)
-- [`PaymentMethods`](#paymentmethods)
+- [`CardForm usage`](#cardform-1)
+- [`BankForm usage`](#bankform-1)
+- [`PaymentMethods usage`](#paymentmethods-1)
 - [`Full example`](#full-example)
 
-### CardForm
+### CardForm usage
 
 `<CardForm>` is a credit card form. By default it only has inputs for number, expiration, and CVC.
 
@@ -108,7 +108,7 @@ onSubmit: (card) => {
 />
 ```
 
-### BankForm
+### BankForm usage
 
 `<BankForm>` is a form for entering US bank account information.
 
@@ -149,7 +149,7 @@ onSubmit(account) {
 />
 ```
 
-### PaymentMethods
+### PaymentMethods usage
 
 `<PaymentMethods>` is a list of your credit cards and/or bank accounts.
 
@@ -206,7 +206,6 @@ export default class PaymentExample extends Component {
     script.async = true;
     script.onload = () => {
       Stripe.setPublishableKey('pk_test_6pRNASCoBOKtIshFeQd4XMUh');
-      console.log('set key');
     };
     document.body.appendChild(script);
 
