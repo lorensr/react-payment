@@ -79,7 +79,7 @@ class BankForm extends Component {
           required
           />
         <ValidatingFormsyText
-          name="routingRumber"
+          name="routingNumber"
           ref="routingNumber"
           type="tel"
           pattern="\d*"

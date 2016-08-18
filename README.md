@@ -294,6 +294,7 @@ export default class PaymentExample extends Component {
           title={title}
           modal={false}
           open={this.state.dialogOpen}
+          onRequestClose={this.closeDialog}
         >
           {
             this.state.cardDialog ?
