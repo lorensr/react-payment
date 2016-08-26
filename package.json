@@ -47,7 +47,9 @@
     "babel-preset-stage-0": "^6.5.0",
     "react-scripts": "0.2.1",
     "react-tap-event-plugin": "^1.0.0",
-    "react-lumberjack": "^2.0.0"
+    "react-lumberjack": "^2.0.0",
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
   },
   "dependencies": {
     "formsy-material-ui": "^0.5.0",
@@ -55,9 +57,11 @@
     "lodash": "^4.14.1",
     "material-ui": "^0.15.3",
     "payment": "^2.0.3",
-    "react": "^15.2.1",
-    "react-dom": "^15.2.1",
     "segmented-control": "^0.1.0"
+  },
+  "peerDependencies": {
+    "react": "^15.2.1",
+    "react-dom": "^15.2.1"
   },
   "eslintConfig": {
     "extends": "./node_modules/react-scripts/config/eslint.js"
