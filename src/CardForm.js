@@ -88,7 +88,7 @@ class CardForm extends Component {
           ref="number"
           type="tel"
           pattern="\d*"
-          hintText="Account number"
+          hintText="Card number"
           validations={{
             isValid: (otherValues, card) => {
               return Payment.fns.validateCardNumber(card)
@@ -96,7 +96,6 @@ class CardForm extends Component {
           }}
           validationError="Invalid card number"
           className="cc-number"
-          // autoCompleteType="cc-number"
           defaultValue={defaultValues.number}
           style={style}
           required
