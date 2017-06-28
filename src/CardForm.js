@@ -124,7 +124,6 @@ class CardForm extends Component {
           name="cvc"
           ref="cvc"
           type="tel"
-          pattern="\d*"
           hintText="CVC"
           validations={{
             isNumeric: true,
