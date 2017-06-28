@@ -87,7 +87,6 @@ class CardForm extends Component {
           name="number"
           ref="number"
           type="tel"
-          pattern="\d*"
           hintText="Card number"
           validations={{
             isValid: (otherValues, card) => {
