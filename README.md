@@ -11,14 +11,15 @@ You can configure/modify some things with props and CSS, and if you need to do a
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
 
+
 - [Demo](#demo)
   - [CardForm](#cardform)
   - [BankForm](#bankform)
   - [PaymentMethods](#paymentmethods)
 - [Usage](#usage)
-  - [CardForm](#cardform-1)
-  - [BankForm](#bankform-1)
-  - [PaymentMethods](#paymentmethods-1)
+  - [CardForm usage](#cardform-usage)
+  - [BankForm usage](#bankform-usage)
+  - [PaymentMethods usage](#paymentmethods-usage)
   - [Full example](#full-example)
 - [Development](#development)
   - [Credits](#credits)
@@ -27,7 +28,7 @@ You can configure/modify some things with props and CSS, and if you need to do a
 
 ## Demo
 
-**Component demo:** [lorensr.me/react-payment](http://lorensr.me/react-payment)
+[Component demo](http://lorensr.me/react-payment)
 
 ### CardForm
 
