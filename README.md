@@ -22,6 +22,7 @@ You can configure/modify some things with props and CSS, and if you need to do a
   - [PaymentMethods usage](#paymentmethods-usage)
   - [Full example](#full-example)
 - [Development](#development)
+  - [Deployment](#deployment)
   - [Credits](#credits)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
@@ -327,6 +328,17 @@ npm run storybook
 ```
 
 [http://localhost:9001](http://localhost:9001)
+
+### Deployment
+
+```sh
+npm version patch
+npm publish
+```
+
+```sh
+npm run deploy-storybook
+```
 
 ### Credits
 
