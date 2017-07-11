@@ -62,9 +62,9 @@ import { CardForm } from 'react-payment';
 import CardForm from 'react-payment/dist/CardForm';
 ```
 
-- [`CardForm usage`](#cardform-1)
-- [`BankForm usage`](#bankform-1)
-- [`PaymentMethods usage`](#paymentmethods-1)
+- [`CardForm usage`](#cardform-usage)
+- [`BankForm usage`](#bankform-usage)
+- [`PaymentMethods usage`](#paymentmethods-usage)
 - [`Full example`](#full-example)
 
 ### CardForm usage
