@@ -49,7 +49,7 @@ You can configure/modify some things with props and CSS, and if you need to do a
 ## Usage
 
 ```sh
-npm i --save react-payment
+yarn add react-payment
 ```
 
 Since this library uses [Material-UI](http://material-ui.com/) components, you need to have a [Material-UI theme](http://www.material-ui.com/#/customization/themes). To get the default style, just wrap this module's components in a `<MuiThemeProvider>` tag (see the [full example](#full-example)).
@@ -58,7 +58,9 @@ The alternate syntax for partial imports is `react-payment/dist/ComponentName`:
 
 ```js
 import { CardForm } from 'react-payment';
-// OR
+
+OR
+
 import CardForm from 'react-payment/dist/CardForm';
 ```
 
