@@ -43,6 +43,18 @@ storiesOf('CardForm', module)
     </StoryWrapper>
   )
 })
+.addWithInfo('custom label', () => {
+  return (
+    <StoryWrapper>
+      <CardForm
+        label="submit"
+        onSubmit={action('onSubmit')}
+        getName={true}
+        getZip={true}
+      />
+    </StoryWrapper>
+  )
+})
 .addWithInfo('invalid', () => {
   return (
     <StoryWrapper>
