@@ -7,7 +7,7 @@
     "storybook": "start-storybook -p 9001",
     "build-storybook": "build-storybook",
     "deploy-storybook": "storybook-to-ghpages",
-    "prepublish": "sh scripts/prepublish.sh",
+    "prepare": "sh scripts/prepublish.sh",
     "postversion": "git push && git push --follow-tags"
   },
   "bugs": {
