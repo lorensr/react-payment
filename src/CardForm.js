@@ -60,7 +60,7 @@ class CardForm extends Component {
 
     const style = _.extend(defaultStyle, this.props.style)
 
-    const { defaultValues } = this.props;
+    const { defaultValues, label } = this.props;
 
     return (
       <Formsy.Form
@@ -158,7 +158,7 @@ class CardForm extends Component {
         }
         <RaisedButton
           type="submit"
-          label="add card"
+          label={(label || "add card")}
           disabled={!this.state.canSubmit}
           style={_.extend({
             width: 175,
