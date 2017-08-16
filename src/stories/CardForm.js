@@ -43,18 +43,6 @@ storiesOf('CardForm', module)
     </StoryWrapper>
   )
 })
-.addWithInfo('custom label', () => {
-  return (
-    <StoryWrapper>
-      <CardForm
-        label="submit"
-        onSubmit={action('onSubmit')}
-        getName={true}
-        getZip={true}
-      />
-    </StoryWrapper>
-  )
-})
 .addWithInfo('invalid', () => {
   return (
     <StoryWrapper>
@@ -69,6 +57,18 @@ storiesOf('CardForm', module)
           cvc: '12',
           zip: '94117'
         }}
+      />
+    </StoryWrapper>
+  )
+})
+.addWithInfo('custom label', () => {
+  return (
+    <StoryWrapper>
+      <CardForm
+        label="submit"
+        onSubmit={action('onSubmit')}
+        getName={true}
+        getZip={true}
       />
     </StoryWrapper>
   )
